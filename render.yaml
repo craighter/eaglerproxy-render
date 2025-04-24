@@ -3,9 +3,9 @@ services:
     name: eaglerproxy
     env: node
     plan: free
-    buildCommand: npm install
-    startCommand: npx ts-node src/index.ts
-    autoDeploy: false
+    buildCommand: npm install && npm run build  
+    startCommand: npm start  
+    autoDeploy: true  
     envVars:
       - key: NODE_ENV
         value: production
