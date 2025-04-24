@@ -5,8 +5,8 @@
   "main": "launcher.js",
   "type": "module",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js"
+    "build": "tsc",  // Compiles TypeScript to the dist folder
+    "start": "node dist/index.js"  // Runs the compiled JavaScript
   },
   "author": "WorldEditAxe, q13x",
   "license": "MIT",
