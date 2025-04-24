@@ -5,7 +5,7 @@
     "target": "ESNext",
     "moduleResolution": "node",
     "sourceMap": false,
-    "outDir": "build",
+    "outDir": "dist",  // Change build to dist so compiled JS goes into the dist folder
     "resolveJsonModule": true,
     "rootDir": "src",
     "skipLibCheck": true
